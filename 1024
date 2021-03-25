@@ -1,0 +1,15 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    char a[2000]={0};
+    int i=0;
+    cin>>a;
+    while(1){
+        if(a[i]==0) break;
+        cout<<'\''<<a[i]<<'\''<<endl;
+        i++;
+    }
+    return 0;
+}
